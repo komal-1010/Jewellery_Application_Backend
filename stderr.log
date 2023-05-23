@@ -1,0 +1,42 @@
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/wlqsagmy/demo.statuslly.com/backend/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home/wlqsagmy/demo.statuslly.com/backend/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/wlqsagmy/demo.statuslly.com/backend/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/wlqsagmy/demo.statuslly.com/backend/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/wlqsagmy/demo.statuslly.com/backend/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home/wlqsagmy/demo.statuslly.com/backend/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/wlqsagmy/demo.statuslly.com/backend/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/wlqsagmy/demo.statuslly.com/backend/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
