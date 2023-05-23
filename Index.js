@@ -1,5 +1,5 @@
 const express = require("express");
-const db=require("../backend/db/db")
+// const db=require("../backend/db/db")
 const Routers = require("./routes/routes");
 
 
